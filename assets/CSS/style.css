@@ -150,12 +150,13 @@ main {
     border-left: solid 5px #782221;
 }
 
-.experience__pro-poste {
+h3[class*="experience"] {
     margin-bottom: 0.5em;
     font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
 }
 
-.experience__pro-date {
+p[class*="date"] {
     font-style: italic;
     font-size: 0.9em;
     margin-top: 0.5em;
