@@ -127,11 +127,14 @@ main {
     margin-left: 20px;
     text-align: justify;
     text-indent: 24px;
+    line-height: 1.25em;
 }
 
 .language__list, .interest__list {
     color: #dbc2a4;
     font-weight: bold;
+    line-height: 1.5em;
+    
 }
 
 .experience {
@@ -164,4 +167,28 @@ p[class*="date"] {
 
 .experience__pro-tache {
     line-height: 1.5em;
+}
+
+footer {
+    display: flex;
+    background-color: #782221;
+    align-items: center;
+    flex-flow: column;
+    padding: 20px;
+}
+
+.social {
+    display: block;
+}
+
+.social>a {
+    padding: 5px;
+}
+
+.social>a:hover {
+    opacity: 0.85;
+}
+
+.modification__date {
+    color: #dbc2a4;
 }
