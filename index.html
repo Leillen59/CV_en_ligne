@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Création d'une première page HTML: mon CV. Auteur:G.pro">
     <link rel="stylesheet" href="/assets/CSS/style.css">
-    <link rel="icon" type="image/vnd.icon" href="/assets/img/favicon.ico">
+    <link rel="icon" type="image/vnd.icon" href="/assets/img/favicon.ico"> 
     <title>Mon CV</title>
 </head>
 <body>
@@ -17,29 +18,27 @@
         <h1 class="name">Bertrand Cailleux</h1>
         <p class="job">Développeur Web Junior</p>
     </header>
-    <section class="info">
-        <address><a href="https://maps.app.goo.gl/Tcr8kBp98zb9LMtH6" target="_blank" class="info__address">12 Rue des Oliviers <br> 53200 La Roche-Neuville</a></address>
-        <p><a href="mailto:Devweb.junior@gmail.com" class="info__mail">Devweb.junior@gmail.com</a></p>
-        <p><a href="tel:0606060606" class="info__tel">06.06.06.06.06</a></p>
-    </section>
+    <div class="info">
+        <address>
+            <a href="https://maps.app.goo.gl/Tcr8kBp98zb9LMtH6" target="_blank" class="info__address">12 Rue des Oliviers <br> 53200 La Roche-Neuville</a>
+        </address>
+        <p>
+            <a href="mailto:Devweb.junior@gmail.com" class="info__mail" target="_blank">Devweb.junior@gmail.com</a>
+        </p>
+        <p>
+            <a href="tel:0606060606" class="info__tel">06.06.06.06.06</a>
+        </p>
+    </div>
     <main>
         <aside class="aside">
             <h2 class="about">A propos</h2>
                 <p class="about__text">
-                Pour mes études, j’ai fait un BTS Communication
-                pour faire suite au Bac STMG - Ressources
-                Humaines et Communication que j’ai obtenu.
-                Seulement, je n’ai pas réussi à avoir mon BTS et j’ai
-                dû me lancer dans le monde professionnelle. C’est
-                comme ça que j’ai atteri dans le monde culinaire.
-                Après une remise en question sur mes choix et
-                une vie plus stable, j’ai décidé de me relancer dans
-                un domaine qui me plaisait : le développement.
-                J’ai toujours été attiré par ce monde qui n’a pas
-                de réel limite et qui est en constante évolution.
-                Apprendre chaque jour, car le changement s’opère
-                rapidement dans ce domaine, me plaît et m’attire
-                avec beaucoup d’enthousiasme.
+                J’ai obtenu un Baccalauréat STMG - Ressources Humaines et Communication
+                puis, fait un BTS Communication.
+                Après mes deux années de BTS non concluante, j'ai dû me lancer dans le monde professionnel. C’est de cette façon que j’ai atteri dans le monde culinaire.
+                Après une remise en question sur mes choix professionnels, j’ai décidé de me lancer dans un domaine qui me correspondait plus : le développement Informatique.
+                J’ai toujours été attiré par ce monde qui n’a pas de réelle limite et qui est en constante évolution.
+                Apprendre chaque jour, car le changement s’opère rapidement dans ce domaine, me plaît et m’attire avec beaucoup d’enthousiasme.
                 </p>
             <h2 class="language">Langues parlées</h2>
                 <ul class="language__list">
@@ -48,14 +47,22 @@
                     <li>Espagnol - Débutant</li>
                 </ul>
             <h2 class="interest">Centres d'intérêts</h2>
-            <ul class="interest__list">
-                <li>Mangas / Animes</li>
-                <li>Jeux vidéos</li>
-                <li>Informatique</li>
-            </ul>
+                <ul class="interest__list">
+                    <li>Jeux vidéos</li>
+                    <li>Informatique</li>
+                    <li>Mangas / Animés</li>
+                </ul>
         </aside>
         <section class="experience">
             <h2 class="experience__pro">Expériences professionnelles</h2>
+                <h3 class="experience__pro-poste">Administrateur d'un serveur Minecraft</h3>
+                    <p class="experience__pro-date">Depuis août 2023</p>
+                    <ul class="experience__pro-tache">
+                        <li class="experience__pro-tache-tache">Mise en place de nouveaux plugins</li>
+                        <li class="experience__pro-tache-tache">Assurer la maintenance du serveur</li>
+                        <li class="experience__pro-tache-tache">Gestion d'une équipe de modération</li>
+                        <li class="experience__pro-tache-tache">Gestion des bugs et patchs</li>
+                </ul>
                 <h3 class="experience__pro-poste">Cuisinier à l'Auberge de la Sapinière</h3>
                     <p class="experience__pro-date">De juin 2021 à septembre 2023</p>
                     <ul class="experience__pro-tache">
@@ -65,28 +72,28 @@
                         <li class="experience__pro-tache-tache">Assurer la qualité des produits et services</li>
                         <li class="experience__pro-tache-tache">Gestion des stocks</li>
                 </ul>
-                <h3 class="experience__pro-poste">Cuisinier, Pizzaiolo et Chef de partie patissier au Restaurant le Cocorico / Ströke</h3>
+                <h3 class="experience__pro-poste">Cuisinier, Pizzaiolo et Chef de partie patissier aux Restaurants Cocorico / Ströke</h3>
                     <p class="experience__pro-date">De septembre 2017 à septembre 2019</p>
                     <ul class="experience__pro-tache">
                         <li class="experience__pro-tache-tache">Mise en place du service</li>
                         <li class="experience__pro-tache-tache">Maintien de la propreté et des règles HACCP</li>
-                        <li class="experience__pro-tache-tache">Gestion des stocks</li>
                         <li class="experience__pro-tache-tache">Assurer la qualité des produits et services</li>
+                        <li class="experience__pro-tache-tache">Gestion des stocks</li>
                         <li class="experience__pro-tache-tache">Gestion de personnel (apprentis/cuisinier)</li>
                     </ul>
                 <h3 class="experience__pro-poste">Chef d'équipe à Domino's Pizza</h3>
-                    <p class="experience__pro-date">De septembre 2016 à Septembre 2017</p>
+                    <p class="experience__pro-date">De septembre 2016 à septembre 2017</p>
                     <ul class="experience__pro-tache">
-                        <li class="experience__pro-tache-tache">Gestion de personnel</li>
-                        <li class="experience__pro-tache-tache">Mise en place et maintien des règles HACCP au du magasin</li>
                         <li class="experience__pro-tache-tache">Assurer les différents services tout en garantissant la qualité des services et des produits</li>
+                        <li class="experience__pro-tache-tache">Mise en place et maintien des règles HACCP au sein du magasin</li>
+                        <li class="experience__pro-tache-tache">Gestion du personnel</li>
                     </ul>
             <h2 class="experience__diplome">Diplômes / Formations</h2>
                 <h3 class="experience__diplome-diplome">Formation Développeur Web et Web Mobile</h3>
                     <p class="experience__diplome-date">De novembre 2023 à janvier 2025</p>
                     <p class="experience__diplome-ecole">Centre Européen de Formation</p>
                 <h3 class="experience__diplome-diplome">BTS Communication</h3>
-                    <p class="experience__diplome-date">De septembre 2014 à juillzt 2016</p>
+                    <p class="experience__diplome-date">De septembre 2014 à juillet 2016</p>
                     <p class="experience__diplome-ecole">ISCOM - Rouen</p>
             <h2 class="experience__competence">Compétences</h2>
                     <ul class="experience__competence-liste">
@@ -98,18 +105,18 @@
         </section>
     </main>
     <footer>
-    <div class="social">
-        <a href="https://www.linkedin.com/in/guillaume-galopin-244b152a3/" target="_blank">
-            <img src="/assets/img/Linkedin.png" alt="Linkedin logo">
-        </a>
-        <a href="https://twitter.com/Progalopin" target="_blank">
-            <img src="/assets/img/Twitter.png" alt="Twitter logo">
-        </a>
-        <a href="https://github.com/Leillen59" target="_blank">
-            <img src="/assets/img/Github.png" alt="Github Logo">
-        </a>
-    </div>
-        <p class="modification__date">Dernière modification le 18 décembre 2023</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/guillaume-galopin-244b152a3/" target="_blank">
+                <img src="/assets/img/Linkedin.png" alt="Linkedin logo">
+            </a>
+            <a href="https://twitter.com/Progalopin" target="_blank">
+                <img src="/assets/img/Twitter.png" alt="Twitter logo">
+            </a>
+            <a href="https://github.com/Leillen59" target="_blank">
+                <img src="/assets/img/Github.png" alt="Github Logo">
+            </a>
+        </div>
+        <p class="modification__date">Dernière modification le 20 décembre 2023</p>
     </footer>
 </body>
 </html>
